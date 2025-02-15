@@ -1,6 +1,6 @@
 # django-react-boilerplate
 
-### Overview
+## Overview
 
 This is a boilerplate for a Django backend with a React frontend.
 It is designed to be a starting point for a full-stack web application.
@@ -18,7 +18,7 @@ Technologies used:
  - [SQLite](https://www.sqlite.org) (default database)
 
 
-### Setup
+## Setup
 
 Disclaimer: The installation steps below have only been tested for Unix-based systems. If you are using Windows, they are not guaranteed to work.
 
@@ -61,6 +61,6 @@ and log in with the superuser credentials you created earlier. </br>
 
 You can now use this boilerplate as the foundation for your web application. </br>
 
-### Contributing
+## Contributing
 
 If you have any suggestions or improvements, feel free to open an issue or a pull request. </br>
