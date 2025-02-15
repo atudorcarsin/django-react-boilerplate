@@ -16,10 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from .views import CsrfView, LoginView
+from .views import CsrfView, LoginView, CheckLoginView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('csrf/', CsrfView.as_view()),
     path('login/', LoginView.as_view()),
+    path('login/check/', CheckLoginView.as_view()),
 ]
